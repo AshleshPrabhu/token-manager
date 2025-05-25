@@ -10,7 +10,7 @@ function Footer({ darkMode }) {
           </div>
           <div className="flex space-x-6">
             <a
-              href="https://github.com"
+              href="https://github.com/AshleshPrabhu"
               target="_blank"
               rel="noopener noreferrer"
               className={`text-sm ${darkMode ? 'text-gray-400 hover:text-white' : 'text-gray-600 hover:text-black'}`}
@@ -18,7 +18,7 @@ function Footer({ darkMode }) {
               GitHub
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/ashlesh-prabhu-bb457b312/"
               target="_blank"
               rel="noopener noreferrer"
               className={`text-sm ${darkMode ? 'text-gray-400 hover:text-white' : 'text-gray-600 hover:text-black'}`}
@@ -26,11 +26,14 @@ function Footer({ darkMode }) {
               LinkedIn
             </a>
             <a
-              href="mailto:contact@xolana.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=ashlesh.prabhu5@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className={`text-sm ${darkMode ? 'text-gray-400 hover:text-white' : 'text-gray-600 hover:text-black'}`}
             >
               Email
             </a>
+
           </div>
         </div>
       </div>

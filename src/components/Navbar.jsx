@@ -74,7 +74,14 @@ function Navbar({ darkMode, setDarkMode }) {
         {isMenuOpen && (
           <div className="sm:hidden mt-4 pb-2 space-y-3">
             <div className={`flex flex-col space-y-2 ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
-              <a href="#" className="hover:text-gray-900 dark:hover:text-white py-2">Wallet</a>
+              <a
+                href="https://ashlesh-wallet.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-gray-900 dark:hover:text-white py-2"
+              >
+                Wallet
+              </a>
               <a href="#" className="hover:text-gray-900 dark:hover:text-white py-2" onClick={()=>toast.info("feature comming soon")}>Swap</a>
               <a href="#" className="hover:text-gray-900 dark:hover:text-white py-2" onClick={()=>toast.info("feature comming soon")}>Swap</a>
             </div>
