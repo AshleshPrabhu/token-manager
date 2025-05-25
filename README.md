@@ -30,7 +30,7 @@ With Token-Manager, users can easily create, manage, and transfer their tokens, 
 ## Tech Stack
 
 - **Frontend**
-  - Reachtjs 18
+  - Reactjs 18
   - Tailwind CSS
   - JavaScript
 
